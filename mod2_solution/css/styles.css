@@ -25,12 +25,12 @@ div.Container {
 	font-size: 125%;
 	font-weight: bold;
 	width: 140px;
-	border: 2px solid black;
+	border: 1px solid black;
 	text-align: center;
 	float: right;
 	position: relative;
-	top: -2px;
-	right: -2px;
+	top: -1px;
+	right: -1px;
 }
 #Chicken {background-color: #FF7070}
 #Beef {
@@ -49,9 +49,11 @@ div>p {
 
 .menu-box {
 	float: left;
-    border: 2px solid black;
+    border: 1px solid black;
     background: #C0C0C0;
     margin: 15px;
+    height: 220px;
+    overflow: auto;
 }
 
 /*Define media query */
